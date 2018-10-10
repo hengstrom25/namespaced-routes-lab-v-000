@@ -3,6 +3,6 @@ class CreatePreferences < ActiveRecord::Migration
     create_table :preferences |t|
       t.string "song_sort_order"
       t.string "artist_sort_order"
-      t.
+      t.boolean ""
   
 end
