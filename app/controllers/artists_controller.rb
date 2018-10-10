@@ -10,7 +10,7 @@ class ArtistsController < ApplicationController
   def new
     @preference = Preference.new
     @artist = Artist.new
-    
+    if !preference
   end
 
   def create
