@@ -1,6 +1,6 @@
 class Preference < ActiveRecord::Base
   
-  def self.song_sort
+  def self.song_sort_order
   end
   
 end
